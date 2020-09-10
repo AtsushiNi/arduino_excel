@@ -2,8 +2,10 @@
 ArduinoからPCへのシリアル通信の内容をExcelファイルに書き出し、保存するプログラム
 
 # Files
-main.py -- pythonのプログラムファイル
-example/example.ino -- Arduinoのサンプルプログラム
+main.py -- pythonのプログラムファイル  
+example/example.ino -- Arduinoのサンプルプログラム  
+logs/ -- log.xlsxを作って実行するとデータが書き込まれる  
+.git・.gitignore -- gitの設定ファイル
 
 # Installation
 ```
@@ -33,7 +35,7 @@ python main.py
 - ArduinoのコードでSerial.writeを使うとうまくいかない可能性あり。Serial.printlnを使うべし
 - LOG_FILE_NAMEの名前のファイルは実行すると上書きされるので注意
 - LOG_FILE_NAMEの名前のExcelファイルが存在しないとエラーになるので注意
-- Excelファイルはgit・githubで管理しない方がいいかも
+- Excelファイルはgit・githubで管理しない方がいいかも(.gitignoreで指定しておいた)
 
 # Sample
 example/example.inoをArduinoIDEで書き込み、pythonを実行  
