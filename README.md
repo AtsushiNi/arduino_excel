@@ -8,6 +8,12 @@ logs/ -- log.xlsxを作って実行するとデータが書き込まれる
 .git・.gitignore -- gitの設定ファイル
 
 # Installation
+git, pythonを入れる
+適当なディレクトリを作って、ターミナルでそこに入る
+```
+git clone https://github.com/AtsushiNi/arduino_excel.git
+cd arduino_excel
+```
 ```
 pip install pyserial
 pip install numpy
