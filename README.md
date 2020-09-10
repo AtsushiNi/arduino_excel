@@ -8,17 +8,17 @@ ArduinoからPCへのシリアル通信の内容をExcelファイルに書き出
 pip install pyserial
 pip install numpy
 ```
-ArduinoをPCに接続する
+ArduinoをPCに接続する  
 ArduinoのCOMポートを調べて、コード中のPORTに書く
 ```
 python main.py
 ```
 
 # Libraries
-- pySerial: シリアル通信用ライブラリ
+- pySerial: シリアル通信用ライブラリ  
 参考URL: https://github.com/AtsushiNi/arduino_excel.git
 
-- numpy: 配列の操作用ライブラリ
+- numpy: 配列の操作用ライブラリ  
 参考URL: https://udemy.benesse.co.jp/ai/python-numpy.html
 
 # Note
