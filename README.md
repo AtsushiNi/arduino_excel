@@ -25,6 +25,7 @@ ArduinoのCOMポートを調べて、コード中のPORTに書く
 ```
 python main.py
 ```
+データを取った後、Ctrl+Cを押すとExcelに保存して終了する
 
 # Libraries
 - pySerial: シリアル通信用ライブラリ  
@@ -41,6 +42,7 @@ python main.py
 - ArduinoのコードでSerial.writeを使うとうまくいかない可能性あり。Serial.printlnを使うべし
 - LOG_FILE_NAMEの名前のファイルは実行すると上書きされるので注意
 - LOG_FILE_NAMEの名前のExcelファイルが存在しないとエラーになるので注意
+- Excelファイルは、実行中は閉じておいた方が無難
 - Excelファイルはgit・githubで管理しない方がいいかも(.gitignoreで指定しておいた)
 
 # Sample
